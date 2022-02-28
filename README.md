@@ -6,9 +6,8 @@ Usage:
 1. Import the files into your client
 2. Add a notification using NotificationManager
 
-Easy as that.
-
-Examples:
+Example:
 ```java
-NotificationManager.addNotification(new Notification("Module enabled", "Scoreboard was enabled.", Notificaion.NotificationType.INFO, 1000L));
+Notification notification = new Notification("Module enabled", "Scoreboard was enabled.", Notificaion.NotificationType.INFO, 1000L);
+NotificationManager.addNotification(notification);
 ```

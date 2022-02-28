@@ -40,7 +40,7 @@ public class Notification {
     }
 
     public boolean isAnimatingIn() {
-        return System.currentTimeMillis() - start - duration - out < -1000;
+        return System.currentTimeMillis() - start - duration - out < -duration;
     }
 
     public boolean isAnimatingOut() {
